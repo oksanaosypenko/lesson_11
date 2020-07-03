@@ -35,6 +35,12 @@ header {
 .grid {
     display: flex;
   }
+  #img {
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
 
 .item1 {
     margin-left: 35px;
