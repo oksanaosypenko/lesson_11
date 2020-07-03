@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Museo";
+    src: url(font/MuseoSansRounded100.woff);
+}
+
+body {
+    background-image: url(img/background.png);
+    width: 800px;
+    height: 600px;
+    background-repeat: no-repeat;
+   
+}
+header {
+    background-color: rgb(17, 26, 40);
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+        border-radius: 10px;
+        background-color: rgb(17, 26, 40);
+        box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.82);
+        position: absolute;
+        left: 63px;
+        top: 109px;
+        width: 686px;
+        height: 391px;
+      }
+    .logo {
+          margin: 24px 0 0 21px;
+      }
+
+.grid {
+    display: flex;
+  }
+
+.item1 {
+    margin-left: 35px;
+    margin-top: 50px;
+}
+
+.dot {
+    
+    cursor: pointer;
+    margin: 0 2px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: border 0.6s ease;
+        width: 11px;
+        height: 11px;     
+      }
+    
+  .caurusel {
+    margin-top: 70px;
+  }
+ 
+  .dot1 {
+      background-color: #1f273f;
+      width: 12px;
+      height: 12px;
+  } 
+ 
+  .dot2 {
+      background-color: #fff;
+  }
+
+  .dot3 {
+   background-color: #ed3333;
+  }
+  .dot4 {
+    background-color: rgb(41, 227, 234);
+  }
+  
+
+  .dot:hover {
+    border: #717171 2px solid;
+    width: 13px;
+    height: 13px;  
+  }
+
+.item2 {
+  width: 186px;
+  color: white;
+  margin-left: 80px;
+}
+h3 {
+    font-family: "Museo", sans-serif;
+        font-size: 24px;
+        color: rgb(225, 225, 225); 
+        margin-bottom: 20px;     
+      }
+      
+h4 {
+        font-size: 14px;
+        font-family: "Museo", sans-serif;
+        color: rgba(225, 225, 225, 0.541);
+        margin-bottom: 20px;
+      
+      }
+      
+.product-rating {
+    margin-bottom: 20px;
+}
+.product-dropdown {
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: -2px; 
+   
+}
+select {
+    background-color: rgb(17, 26, 40) ;
+    color: rgba(225, 225, 225, 0.541);
+    border: 1px solid #717171;
+    width: 69px;
+    height: 30px;
+  
+}
+
+option {
+    display: inline-block;
+    background-color: rgb(17, 26, 40) ;
+    color: rgba(225, 225, 225, 0.541);
+    border: 1px solid #717171;
+    width: 69px;
+    height: 30px;
+        font-size: 14px;
+        font-family: "Museo", sans-serif;
+        color: rgb(225, 225, 225);
+        line-height: 1.286;
+       
+      }
+   .product-button {
+       display: inline-block;
+    width: 184px;
+    height: 40px;   
+    border: 1px solid #717171;
+    text-align: center;   
+     text-align: center;
+     padding-top: 10px;
+     background-color: #202835;
+   }   
+.btn {
+       text-decoration: none;     
+        font-size: 14px;
+        font-family: "Museo", sans-serif;
+        color: rgba(225, 225, 225, 0.541);
+}
+.product-button:hover {
+  cursor: pointer;
+}
+.slideshow-container {
+  max-width: 332px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

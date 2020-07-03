@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img/logo.png" alt="nike_logo" class="logo">
+        </div>
+
+        <div class="grid">
+
+            <div class="grid-item item1">
+                <div class="slideshow-container">
+                    <div class="product-img">
+                        <img src="img/product.png" alt="nike shoe">
+                    </div>
+                    <div class="caurusel">
+                        <div style="text-align:center">
+                            <span class="dot dot1" onclick="currentSlide(1)"></span>
+                            <span class="dot dot2" onclick="currentSlide(2)"></span>
+                            <span class="dot dot3" onclick="currentSlide(3)"></span>
+                            <span class="dot dot4" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="grid-item item2">
+                <div class="product-title">
+                    <h3>Nike SB Stefan <br> Janoski Max</h3>
+                </div>
+                <div class="product-description">
+                    <h4>Unisex Skateboarding Shoe</h4>
+                </div>
+                <div class="product-rating">
+                    <img src="img/rating.png" alt="rating">
+                </div>
+                <div class="product-dropdown">
+                    <div class="select">
+                        <select>
+                            <option value="0">Size</option>
+                            <option value="1">36</option>
+                            <option value="2">37</option>
+                            <option value="3">38</option>
+                            <option value="4">39</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="product-dropdown">
+                    <div class="select">
+                        <select>
+                            <option value="0">Qty</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="product-button">
+                    <a class="btn" href="#" role="button">Add to cart</a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
